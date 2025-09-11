@@ -99,6 +99,7 @@ DELETE /weather/history
 ├── main.py           # FastAPI application
 ├── README.md         # Setup + Documentation
 ├── requirements.txt  # Dependencies
+├── API Documentation # Explains the entire API
 └── .env              # Environment variables (API key)
 ```
 
@@ -114,29 +115,24 @@ Got it — let’s create a **very elaborate environment configuration** so your
 
 ---
 
-# 🌍 Environment Configuration for Weather API Service
 
-## 1. 📂 Project Structure
+# Environment Configuration for Weather API Service
 
-Here’s a recommended folder layout:
+## 1. Project Structure
+
+Here’s the folder layout:
 
 ```
 weather-api-service/
-├── app/
-│   ├── main.py              # FastAPI application code
-│   ├── __init__.py
-│   ├── services/            # (optional) reusable logic
-│   └── static/              # static frontend files if separated
-├── .env                     # Environment variables (not committed to Git!)
-├── .env.example             # Sample environment file for developers
+├── main.py                  # Backend and frontend
+├── .env                     # Environment variables
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Documentation
-└── run.sh                   # Script to run app (optional)
 ```
 
 ---
 
-## 2. 🔑 Environment Variables (`.env`)
+## 2. Environment Variables (`.env`)
 
 All sensitive or configurable values should live inside a `.env` file. This file is **never** committed to GitHub.
 
@@ -165,7 +161,7 @@ ENV=development
 
 ---
 
-## 3. 🧾 Example `.env.example`
+## 3. Example `.env.example`
 
 This should be committed to GitHub as a reference for new developers:
 
@@ -187,7 +183,7 @@ ENV=development
 
 ---
 
-## 4. ⚙️ Loading Environment Variables
+## 4. Loading Environment Variables
 
 Use **python-dotenv** to load `.env` into your FastAPI app.
 
@@ -208,7 +204,7 @@ DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 
 ---
 
-## 5. 📦 requirements.txt
+## 5. requirements.txt
 
 Minimal dependencies:
 
@@ -230,7 +226,7 @@ httpx           # test requests
 
 ---
 
-## 6. 🚀 Running the Application
+## 6. Running the Application
 
 ### Development Mode
 
@@ -250,7 +246,7 @@ gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
 
 ---
 
-## 7. 🌐 Environment Types
+## 7. Environment Types
 
 Define `ENV` in `.env`:
 
@@ -281,12 +277,3 @@ else:
   .env
   ```
 * Use different `.env` files for different environments (`.env.dev`, `.env.prod`).
-
----
-
-✅ With this setup, your Weather API service is clean, secure, and ready for local dev or cloud deployment.
-
----
-
-Do you also want me to **add a Dockerfile + docker-compose.yml** so you can run this project with one command in a containerized environment?
-
