@@ -246,7 +246,6 @@ Define `ENV` in `.env`:
 * **production** → debug disabled, optimized for speed.
 
 Example switch in code:
-
 ```python
 ENV = os.getenv("ENV", "development")
 
@@ -259,7 +258,6 @@ else:
 ---
 
 ## 8. 🔒 Security Notes
-
 * Never hardcode the API key in your code.
 * Add `.env` to `.gitignore`:
 
