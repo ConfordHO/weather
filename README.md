@@ -1,9 +1,7 @@
 # Weather Service
-
 A simple weather API service built with **FastAPI** that integrates with OpenWeatherMap, stores search history, includes rate limiting, and serves a basic HTML frontend.
 
 ## Features
-
 - Current weather by **city** or **coordinates**
 - 1–5 day **forecast** by city
 - **Search history** stored with timestamps
@@ -12,12 +10,10 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
 - Simple **HTML frontend** for testing
 
 ## Requirements
-
 - Python 3.9+
 - OpenWeatherMap API key
 
 ## Setup Instructions
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/ConfordHO/weather.git
@@ -84,7 +80,6 @@ DELETE /weather/history
 ---
 
 ## Frontend
-
 - Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in a browser
 - Enter a city name to fetch current weather
 - View forecast results
@@ -110,16 +105,13 @@ DELETE /weather/history
 - Uses OpenWeatherMap free API tier.
 - History stored in-memory (resets when app restarts).
 
-
 Got it — let’s create a **very elaborate environment configuration** so your project is well-structured, portable, and production-ready. I’ll cover: `.env` setup, `requirements.txt`, recommended folder layout, and environment variables for different stages (development, staging, production).
 
 ---
 
 
 # Environment Configuration for Weather API Service
-
 ## 1. Project Structure
-
 Here’s the folder layout:
 
 ```
@@ -133,7 +125,6 @@ weather-api-service/
 ---
 
 ## 2. Environment Variables (`.env`)
-
 All sensitive or configurable values should live inside a `.env` file. This file is **never** committed to GitHub.
 
 Example `.env`:
