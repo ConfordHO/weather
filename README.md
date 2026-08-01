@@ -48,7 +48,6 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
 ---
 
 ## API Endpoints
-
 ### 1. Current Weather by City
 ```http
 GET /weather?city={city}
@@ -69,7 +68,6 @@ GET /weather/forecast?city={city}&days={days}
 ```http
 GET /weather/history
 ```
-
 ### 5. Clear History
 ```http
 DELETE /weather/history
