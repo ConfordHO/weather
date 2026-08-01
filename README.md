@@ -19,14 +19,12 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    git clone https://github.com/ConfordHO/weather.git
    cd weather
    ```
-
 2. Create and activate a virtual environment:
    ```bash
    python -m venv venv
    source venv/bin/activate  # Linux / Mac
    venv\Scripts\activate     # Windows
    ```
-
 3. Install dependencies:
    ```bash
    pip install fastapi uvicorn requests
