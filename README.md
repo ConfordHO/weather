@@ -254,7 +254,6 @@ else:
 ## 8. 🔒 Security Notes
 * Never hardcode the API key in your code.
 * Add `.env` to `.gitignore`:
-
   ```
   # Ignore environment files
   .env
