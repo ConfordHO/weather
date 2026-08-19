@@ -83,7 +83,6 @@ DELETE /weather/history
 - Clear history with one click
 
 ---
-
 ## Project Structure
 ```
 .
