@@ -123,7 +123,6 @@ weather-api-service/
 All sensitive or configurable values should live inside a `.env` file. This file is **never** committed to GitHub.
 
 Example `.env`:
-
 ```env
 # Server configuration
 APP_HOST=127.0.0.1
