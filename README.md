@@ -51,7 +51,6 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
 ```http
 GET /weather?city={city}
 ```
-
 ### 2. Current Weather by Coordinates
 ```http
 GET /weather?lat={lat}&lon={lon}
