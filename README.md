@@ -33,7 +33,6 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    ```env
    API_KEY=your_openweathermap_api_key
    ```
-
 5. Run the application:
    ```bash
    uvicorn main:app --reload
