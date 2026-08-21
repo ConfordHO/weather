@@ -147,7 +147,6 @@ ENV=development
 ---
 
 ## 3. Example `.env.example`
-
 This should be committed to GitHub as a reference for new developers:
 
 ```env
