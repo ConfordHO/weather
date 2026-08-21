@@ -170,7 +170,6 @@ ENV=development
 ## 4. Loading Environment Variables
 
 Use **python-dotenv** to load `.env` into your FastAPI app.
-
 ```python
 import os
 from dotenv import load_dotenv
