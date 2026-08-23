@@ -115,7 +115,6 @@ weather-api-service/
 
 ## 2. Environment Variables (`.env`)
 All sensitive or configurable values should live inside a `.env` file. This file is **never** committed to GitHub.
-
 Example `.env`:
 ```env
 # Server configuration
