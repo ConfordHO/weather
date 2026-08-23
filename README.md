@@ -241,7 +241,6 @@ if ENV == "production":
 else:
     DEBUG = True
 ```
-
 ---
 ## 8. 🔒 Security Notes
 * Never hardcode the API key in your code.
