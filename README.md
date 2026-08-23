@@ -81,7 +81,6 @@ DELETE /weather/history
 ├── API Documentation # Explains the entire API
 └── .env              # Environment variables (API key)
 ```
-
 ---
 
 ## Notes
