@@ -174,7 +174,6 @@ DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 ```
 
 ---
-
 ## 5. requirements.txt
 
 Minimal dependencies:
