@@ -56,7 +56,6 @@ GET /weather?lat={lat}&lon={lon}
 GET /weather/forecast?city={city}&days={days}
 ```
 - `days`: 1 to 5
-
 ### 4. Search History
 ```http
 GET /weather/history
