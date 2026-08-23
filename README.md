@@ -51,7 +51,6 @@ GET /weather?city={city}
 ```http
 GET /weather?lat={lat}&lon={lon}
 ```
-
 ### 3. Forecast by City
 ```http
 GET /weather/forecast?city={city}&days={days}
