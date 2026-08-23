@@ -82,7 +82,6 @@ DELETE /weather/history
 └── .env              # Environment variables (API key)
 ```
 ---
-
 ## Notes
 - Rate limit: 1 request per 2 seconds per IP.
 - Uses OpenWeatherMap free API tier.
