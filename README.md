@@ -225,7 +225,6 @@ gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
 ---
 
 ## 7. Environment Types
-
 Define `ENV` in `.env`:
 
 * **development** → debug mode enabled, reload on changes.
