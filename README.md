@@ -108,7 +108,6 @@ weather-api-service/
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Documentation
 ```
-
 ---
 
 ## 2. Environment Variables (`.env`)
