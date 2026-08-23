@@ -99,7 +99,6 @@ DELETE /weather/history
 Got it — let’s create a **very elaborate environment configuration** so your project is well-structured, portable, and production-ready. I’ll cover: `.env` setup, `requirements.txt`, recommended folder layout, and environment variables for different stages (development, staging, production).
 
 ---
-
 # Environment Configuration for Weather API Service
 ## 1. Project Structure
 Here’s the folder layout:
