@@ -66,7 +66,6 @@ GET /weather/history
 DELETE /weather/history
 ```
 ---
-
 ## Frontend
 - Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in a browser
 - Enter a city name to fetch current weather
