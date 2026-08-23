@@ -77,7 +77,6 @@ DELETE /weather/history
 - View forecast results
 - View search history
 - Clear history with one click
-
 ---
 ## Project Structure
 ```
