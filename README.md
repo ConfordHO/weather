@@ -247,5 +247,4 @@ else:
   # Ignore environment files
   .env
   ```
-  
 * Use different `.env` files for different environments (`.env.dev`, `.env.prod`).
