@@ -37,7 +37,6 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    ```bash
    uvicorn main:app --reload
    ```
-
 6. Open in browser:
    ```
    http://127.0.0.1:8000
