@@ -66,7 +66,6 @@ GET /weather/history
 ```http
 DELETE /weather/history
 ```
-
 ---
 
 ## Frontend
