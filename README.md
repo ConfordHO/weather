@@ -82,6 +82,7 @@ DELETE /weather/history
 └── .env              # Environment variables (API key)
 ```
 ---
+
 ## Notes
 - Rate limit: 1 request per 2 seconds per IP.
 - Uses OpenWeatherMap free API tier.
@@ -91,6 +92,7 @@ Got it — let’s create a **very elaborate environment configuration** so your
 
 ---
 # Environment Configuration for Weather API Service
+
 ## 1. Project Structure
 Here’s the folder layout:
 
