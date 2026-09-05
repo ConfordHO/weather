@@ -26,24 +26,25 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    ```
    
 3. Create and activate a virtual environment:
+   
    ```bash
    python -m venv venv
    source venv/bin/activate  # Linux / Mac
    venv\Scripts\activate     # Windows
    ```
-4. Install dependencies:
+5. Install dependencies:
    ```bash
    pip install fastapi uvicorn requests
    ```
-5. Create a `.env` file and add your OpenWeatherMap API key:
+6. Create a `.env` file and add your OpenWeatherMap API key:
    ```env
    API_KEY=your_openweathermap_api_key
    ```
-6. Run the application:
+7. Run the application:
    ```bash
    uvicorn main:app --reload
    ```
-7. Open in browser:
+8. Open in browser:
    ```
    http://127.0.0.1:8000
    ```
