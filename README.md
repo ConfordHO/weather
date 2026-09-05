@@ -46,10 +46,11 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    ```
    
 9. Run the application:
+    
    ```bash
    uvicorn main:app --reload
    ```
-10. Open in browser:
+11. Open in browser:
    ```
    http://127.0.0.1:8000
    ```
