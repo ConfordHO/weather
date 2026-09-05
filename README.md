@@ -17,6 +17,7 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
 - OpenWeatherMap API key
 
 ## Setup Instructions
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/ConfordHO/weather.git
