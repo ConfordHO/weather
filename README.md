@@ -58,6 +58,7 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    ```
 ---
 ## API Endpoints
+
 ### 1. Current Weather by City
 ```http
 GET /weather?city={city}
