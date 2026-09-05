@@ -40,14 +40,15 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    ```
    
 7. Create a `.env` file and add your OpenWeatherMap API key:
+   
    ```env
    API_KEY=your_openweathermap_api_key
    ```
-8. Run the application:
+9. Run the application:
    ```bash
    uvicorn main:app --reload
    ```
-9. Open in browser:
+10. Open in browser:
    ```
    http://127.0.0.1:8000
    ```
