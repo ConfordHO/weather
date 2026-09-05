@@ -38,6 +38,7 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    ```bash
    pip install fastapi uvicorn requests
    ```
+   
 7. Create a `.env` file and add your OpenWeatherMap API key:
    ```env
    API_KEY=your_openweathermap_api_key
