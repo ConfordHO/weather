@@ -67,6 +67,7 @@ GET /weather?city={city}
 ```
 
 ### 2. Current Weather by Coordinates
+
 ```http
 GET /weather?lat={lat}&lon={lon}
 ```
