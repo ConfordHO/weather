@@ -104,6 +104,7 @@ DELETE /weather/history
 ---
 
 ## Notes
+
 - Rate limit: 1 request per 2 seconds per IP.
 - Uses OpenWeatherMap free API tier.
 - History stored in-memory (resets when app restarts).
