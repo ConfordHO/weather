@@ -114,6 +114,7 @@ Got it — let’s create a **very elaborate environment configuration** so your
 # Environment Configuration for Weather API Service
 
 ## 1. Project Structure
+
 Here’s the folder layout:
 
 ```
