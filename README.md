@@ -66,6 +66,7 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    ```bash
    uvicorn main:app --reload
    ```
+
    
 11. Open in browser:
     
