@@ -42,6 +42,7 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    source venv/bin/activate  # Linux / Mac
    venv\Scripts\activate     # Windows
    ```
+
    
 5. Install dependencies:
    
