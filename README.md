@@ -35,6 +35,7 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
 
    
 3. Create and activate a virtual environment:
+
    
    ```bash
    python -m venv venv
