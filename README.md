@@ -14,6 +14,7 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
 - **Rate limiting** (1 request every 5 minutes per IP)
 - Simple **HTML frontend** for testing
 
+
 ## Requirements
 
 - Python 3.9+
