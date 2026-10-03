@@ -74,6 +74,7 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    ```
    http://127.0.0.1:8000
    ```
+
 ---
 
 ## API Endpoints
