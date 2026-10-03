@@ -24,6 +24,7 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
 
 ## Setup Instructions
 
+
 1. Clone the repository:
    
    ```bash
