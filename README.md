@@ -4,7 +4,6 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
 
 ## Features
 
-
 - Current weather by **city** or **coordinates**
 - 1–5 day **forecast** by city
 - **Search history** stored with timestamps
