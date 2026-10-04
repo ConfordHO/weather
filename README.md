@@ -2,7 +2,6 @@
 
 A simple weather API service built with **FastAPI** that integrates with OpenWeatherMap, stores search history, includes rate limiting, and serves a basic HTML frontend.
 
-
 ## Features
 
 
