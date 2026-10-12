@@ -35,7 +35,6 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    
 5. Install dependencies:
 
-   
    ```bash
    pip install fastapi uvicorn requests
    ```
