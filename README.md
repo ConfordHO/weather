@@ -24,7 +24,6 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    git clone https://github.com/ConfordHO/weather.git
    cd weather
    ```
-
    
 3. Create and activate a virtual environment:
 
