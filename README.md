@@ -51,7 +51,6 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
    uvicorn main:app --reload
    ```
 
-   
 11. Open in browser:
 
     
