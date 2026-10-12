@@ -14,7 +14,6 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
 
 ## Requirements
 
-
 - Python 3.9+
 - OpenWeatherMap API key
 
