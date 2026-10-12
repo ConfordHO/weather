@@ -60,7 +60,6 @@ A simple weather API service built with **FastAPI** that integrates with OpenWea
 
 ---
 
-
 ## API Endpoints
 
 
