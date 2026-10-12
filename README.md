@@ -150,6 +150,7 @@ CORS_ALLOW_ORIGINS=*
 
 # Environment type
 ENV=development
+
 ```
 
 ---
